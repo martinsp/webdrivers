@@ -1,7 +1,7 @@
 ### 4.1.0 (2019-07-03)
 * Add support for `msedgedriver` (issue [#93](https://github.com/titusfortner/webdrivers/issues/93))
 * Allow users to provide a custom binary path via `WD_CHROME_PATH` 
-and `WD_EDGE_CHROME_ATH` environment variables (issues #[137](https://github.com/titusfortner/webdrivers/issues/137) 
+and `WD_EDGE_CHROME_PATH` environment variables (issues #[137](https://github.com/titusfortner/webdrivers/issues/137) 
 and [#93](https://github.com/titusfortner/webdrivers/issues/93))
 * Fix a bug where the user given Chrome binary path via `Selenium::WebDriver::Chrome.path` 
 was not properly escaped (issue [#139](https://github.com/titusfortner/webdrivers/issues/139))
